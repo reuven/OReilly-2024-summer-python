@@ -1,6 +1,6 @@
 def menu(choices):
     while True:
-        s = input('Choose: ').strip()
+        s = input(f'Choose from {"/".join(choices)}: ').strip()
 
         if s in choices:
             return s
